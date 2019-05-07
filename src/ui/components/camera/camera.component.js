@@ -4,10 +4,6 @@ import { styles } from './camera.style'
 import { RNCamera } from 'react-native-camera'
 
 export class Camera extends Component {
-  constructor() {
-    super()
-  }
-
   render() {
     return (
       <View style={styles.container}>
@@ -38,6 +34,7 @@ export class Camera extends Component {
       const options = { quality: 0.5, base64: true }
       const data = await this.camera.takePictureAsync(options)
       console.log(data.uri)
+      this.props.savePhoto(data.uri)
     }
   }
 }
