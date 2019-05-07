@@ -1,0 +1,1 @@
+export { PostDetailStack } from './post-detail.stack'

@@ -1,0 +1,5 @@
+export { LoginScreen } from './login/login.screen'
+export { AddPostScreen } from './add-post/index'
+export { FeedScreen } from './feed/feed.screen'
+export { HistoryPostScreen } from './history-post/history-post.screen'
+export { ProfileScreen } from './profile/profile.screen'

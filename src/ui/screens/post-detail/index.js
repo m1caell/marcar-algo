@@ -1,0 +1,1 @@
+export { PostDetailScreen } from './post-detail.screen'
